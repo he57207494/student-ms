@@ -16,9 +16,9 @@ pip install pyqt5
 #工具库
 pip install pyqt5-tools
 ```
-2.安装PyMySQL
+2. 安装PyMySQL
 ```python
 pip install PyMySQL
 ```
-3.导入data文件夹中的数据库文件
-4.在`service/service.py`文件中填写数据库的账号密码以及数据库地址
+3. 导入data文件夹中的数据库文件
+4. 在`service/service.py`文件中填写数据库的账号密码以及数据库地址
