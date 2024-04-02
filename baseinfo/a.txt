@@ -1,0 +1,8 @@
+CREATE VIEW v_classinfo
+AS
+select tb_class.classId as classID,
+tb_grade.gradeID as gradeID,
+tb_grade.gradeName as gradeName,
+tb_class.className as className,
+FROM (tb_class join tb_grade)
+WHERE (tb_class.gradeID = tb_grade.gradeID)
